@@ -1,0 +1,8 @@
+{
+  "name": "drift",
+  "app_id": "8ccb310f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
