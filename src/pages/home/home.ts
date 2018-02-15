@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 import { NavController } from 'ionic-angular';
 import { AudioImagesProvider } from '../../providers/audio-images/audio-images';
+import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-images-details'
 
 @Component({
   selector: 'page-home',
@@ -23,7 +24,12 @@ export class HomePage {
       .subscribe((response) => {
         this.allAudioImages = response;
       });
+  }
 
+  goToAudioImagesDetailsPage(audioImages){
+    this.navCtrl.push(AudioImagesDetailsPage,{
+      audioImagesDetails: audioImages
+    });
   }
 
 }

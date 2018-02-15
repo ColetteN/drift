@@ -7,6 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,6 +21,7 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     AboutPage,
     ContactPage,
     HomePage,
+    AudioImagesDetailsPage,
     TabsPage
   ],
   imports: [
@@ -33,6 +35,7 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     MyApp,
     AboutPage,
     ContactPage,
+    AudioImagesDetailsPage,
     HomePage,
     TabsPage
   ],
