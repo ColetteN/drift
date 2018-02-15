@@ -10,18 +10,19 @@ import { AudioImagesProvider } from '../../providers/audio-images/audio-images';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  //create array for the images
+  public allAudioImages = [];
 
   constructor(private audioImagesProvider:AudioImagesProvider, 
-    private http:Http, 
-    private httpClientModule:HttpClientModule,
-    public navCtrl: NavController) {
+    private http:Http, public navCtrl: NavController) {
 
   }
 
   ionViewDidLoad(){
-    this.http.get('./assets/data.json')
-      .map(response => response.json())
-      .subscribe(response => console.log(response));
+    this.audioImagesProvider.getAudioImages()
+      .subscribe((response) => {
+        this.allAudioImages = response;
+      });
 
   }
 

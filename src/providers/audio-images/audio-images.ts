@@ -1,5 +1,5 @@
 import { Http } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';
+// import { HttpClientModule } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 
@@ -15,6 +15,7 @@ export class AudioImagesProvider {
   constructor(public http: Http) {
     console.log('Hello AudioImagesProvider Provider');
   }
+  
   getAudioImages(){
     return this.http.get('./assets/data.json')
        .map(response => response.json());
