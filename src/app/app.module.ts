@@ -7,7 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details'
+import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -28,6 +28,7 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     HttpClientModule,
     HttpModule,
     BrowserModule,
+    // AudioImagesDetailsPage,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -44,6 +45,7 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     SplashScreen,
     HttpClientModule,
     HttpModule,
+    // AudioImagesDetailsPage,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AudioImagesProvider
   ]

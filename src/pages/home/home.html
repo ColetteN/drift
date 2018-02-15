@@ -5,9 +5,6 @@
 </ion-header>
 
 <ion-content padding>
-    <!-- <ion-card *ngFor="let audioImages of allAudioImages">
-        <img [src]="audioImages.image"/>
-      </ion-card> -->
   <ion-card *ngFor="let audioImages of allAudioImages" (click)="goToAudioImagesDetailsPage(audioImages)">
     <img [src]="audioImages.image"/>
   </ion-card>
