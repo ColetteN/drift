@@ -28,7 +28,6 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     HttpClientModule,
     HttpModule,
     BrowserModule,
-    // AudioImagesDetailsPage,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -45,7 +44,6 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     SplashScreen,
     HttpClientModule,
     HttpModule,
-    // AudioImagesDetailsPage,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AudioImagesProvider
   ]
