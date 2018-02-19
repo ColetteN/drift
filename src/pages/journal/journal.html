@@ -3,14 +3,49 @@
     <ion-title>
       Journal
     </ion-title>
+
+    <ion-buttons end>
+      <button (click)="toggleReorder()" ion-button *ngIf="!reorderIsEnabled">
+        Edit
+      </button>
+      <button (click)="toggleReorder()" ion-button *ngIf="reorderIsEnabled">
+        Done
+      </button>
+
+      <button ion-button (click)="openJournalAlert()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Journal entries can be manually added here</ion-list-header>
-    <ion-item>
-      
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+
+<ion-list [reorder]="reorderIsEnabled" (ionItemReorder)="itemReordered($event)">
+<ion-item-sliding *ngFor="let journal of journals; let journalIndex = index">
+
+    <ion-item-options side="left">
+        <button ion-button (click)="editJournal(journalIndex)">
+          <ion-icon name="create"></ion-icon>
+        </button>
+      </ion-item-options>
+
+  <ion-item>{{journal}}</ion-item>
+
+      <ion-item-options side="right">
+        <button color="secondary" ion-button (click)="archiveJournal(journalIndex)">
+          <ion-icon name="archive"></ion-icon>
+        </button>
+      </ion-item-options>
+</ion-item-sliding>
+
+</ion-list>
+
+<ion-fab right bottom>
+  <button ion-fab (click)="goToStoreJournalsPage()">
+    <ion-icon name="archive"></ion-icon>
+  </button>
+</ion-fab>
+
 </ion-content>

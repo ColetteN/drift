@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 
 import { AudioPage } from '../pages/audio/audio';
 import { JournalPage } from '../pages/journal/journal';
+import { StoreJournalsPage } from '../pages/store-journals/store-journals';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AudioRecordPage } from '../pages/audio-record/audio-record';
@@ -15,12 +16,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { AudioImagesProvider } from '../providers/audio-images/audio-images';
+import { JournalProvider } from '../providers/journal/journal';
 
 @NgModule({
   declarations: [
     MyApp,
     AudioPage,
     JournalPage,
+    StoreJournalsPage,
     HomePage,
     AudioRecordPage,
     AudioImagesDetailsPage,
@@ -37,6 +40,7 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     MyApp,
     AudioPage,
     JournalPage,
+    StoreJournalsPage,
     AudioImagesDetailsPage,
     HomePage,
     AudioRecordPage,
@@ -48,7 +52,8 @@ import { AudioImagesProvider } from '../providers/audio-images/audio-images';
     HttpClientModule,
     HttpModule,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AudioImagesProvider
+    AudioImagesProvider,
+    JournalProvider
   ]
 })
 export class AppModule {}
