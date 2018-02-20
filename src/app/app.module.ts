@@ -12,11 +12,13 @@ import { AudioRecordPage } from '../pages/audio-record/audio-record';
 import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
+import { NativeAudio } from '@ionic-native/native-audio';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { AudioImagesProvider } from '../providers/audio-images/audio-images';
 import { JournalProvider } from '../providers/journal/journal';
+import { ProgressBarComponent } from '../components/progress-bar/progress-bar'
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { JournalProvider } from '../providers/journal/journal';
     HomePage,
     AudioRecordPage,
     AudioImagesDetailsPage,
+    ProgressBarComponent,
     TabsPage
   ],
   imports: [
@@ -48,6 +51,7 @@ import { JournalProvider } from '../providers/journal/journal';
   ],
   providers: [
     StatusBar,
+    NativeAudio,
     SplashScreen,
     HttpClientModule,
     HttpModule,
