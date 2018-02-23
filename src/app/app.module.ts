@@ -18,7 +18,6 @@ import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { AudioImagesProvider } from '../providers/audio-images/audio-images';
 import { JournalProvider } from '../providers/journal/journal';
-import { ProgressBarComponent } from '../components/progress-bar/progress-bar'
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar'
     HomePage,
     AudioRecordPage,
     AudioImagesDetailsPage,
-    ProgressBarComponent,
     TabsPage
   ],
   imports: [

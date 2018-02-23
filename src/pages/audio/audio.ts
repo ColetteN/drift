@@ -11,5 +11,4 @@ export class AudioPage {
   constructor(public navCtrl: NavController, private nativeAudio:NativeAudio) {
 
   }
-
 }
