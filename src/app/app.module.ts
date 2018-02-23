@@ -18,6 +18,7 @@ import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { AudioImagesProvider } from '../providers/audio-images/audio-images';
 import { JournalProvider } from '../providers/journal/journal';
+import { IonicImageViewerModule } from 'ionic-img-viewer';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { JournalProvider } from '../providers/journal/journal';
     HttpClientModule,
     HttpModule,
     BrowserModule,
+    IonicImageViewerModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

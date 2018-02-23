@@ -5,6 +5,7 @@ import 'rxjs/add/operator/map';
 import { NavController } from 'ionic-angular';
 import { AudioImagesProvider } from '../../providers/audio-images/audio-images';
 import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-images-details';
+import { ImageViewerController } from 'ionic-img-viewer';
 
 @Component({
   selector: 'page-home',
@@ -12,24 +13,34 @@ import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-i
 })
 export class HomePage {
   //create array for the images
-  public allAudioImages = [];
+  public allImages = [];
+  // imageViewerCtrl: ImageViewerController;
 
-  constructor(private audioImagesProvider:AudioImagesProvider, 
+  constructor( public imageViewerCtrl: ImageViewerController, private audioImagesProvider:AudioImagesProvider, 
     private http:Http, public navCtrl: NavController) {
 
+      this.imageViewerCtrl = imageViewerCtrl;
   }
 
   ionViewDidLoad(){
-    this.audioImagesProvider.getAudioImages()
+    this.audioImagesProvider.getImages()
       .subscribe((response) => {
-        this.allAudioImages = response;
+        this.allImages = response;
       });
   }
 
-  goToAudioImagesDetailsPage(audioImages){
-    this.navCtrl.push(AudioImagesDetailsPage,{
-      audioImagesDetails: audioImages
-    });
+  presentImage(galleryImages) {
+    const imageViewer = this.imageViewerCtrl.create(galleryImages);
+    imageViewer.present();
+ 
+    setTimeout(() => imageViewer.dismiss(), 1000);
+    imageViewer.onDidDismiss(() => alert('Viewer dismissed'));
   }
+
+  // goToAudioImagesDetailsPage(audioImages){
+  //   this.navCtrl.push(AudioImagesDetailsPage,{
+  //     audioImagesDetails: audioImages
+  //   });
+  // }
 
 }

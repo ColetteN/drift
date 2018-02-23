@@ -16,7 +16,7 @@ export class AudioImagesProvider {
     console.log('Hello AudioImagesProvider Provider');
   }
   
-  getAudioImages(){
+  getImages(){
     return this.http.get('./assets/data.json')
        .map(response => response.json());
 
