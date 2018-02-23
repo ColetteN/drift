@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AudioRecordPage } from '../pages/audio-record/audio-record';
 import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { NativeAudio } from '@ionic-native/native-audio';
@@ -27,6 +28,7 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     JournalPage,
     StoreJournalsPage,
     HomePage,
+    WelcomePage,
     AudioRecordPage,
     AudioImagesDetailsPage,
     TabsPage
@@ -43,6 +45,7 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     MyApp,
     AudioPage,
     JournalPage,
+    WelcomePage,
     StoreJournalsPage,
     AudioImagesDetailsPage,
     HomePage,

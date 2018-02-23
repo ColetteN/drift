@@ -23,7 +23,7 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 
-
+::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
 
 // Named Color Variables
 // --------------------------------------------------
@@ -41,7 +41,7 @@ $colors: (
   dark:       #222
 );
 
-
+$toolbar-background: color($colors, primary);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
