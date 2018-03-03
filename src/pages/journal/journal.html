@@ -4,16 +4,17 @@
       Journal
     </ion-title>
 
+    <button ion-button (click)="openJournalAlert()">
+        <ion-icon name="book">  Add</ion-icon>    
+    </button>
+
     <ion-buttons end>
       <button (click)="toggleReorder()" ion-button *ngIf="!reorderIsEnabled">
-        Reorder
-      </button>
-      <button (click)="toggleReorder()" ion-button *ngIf="reorderIsEnabled">
-        Done
+          <ion-icon name="reorder">  Reorder</ion-icon>  
       </button>
 
-      <button ion-button (click)="openJournalAlert()">
-        <ion-icon name="add"></ion-icon>
+      <button (click)="toggleReorder()" ion-button *ngIf="reorderIsEnabled">
+      Done
       </button>
     </ion-buttons>
 
