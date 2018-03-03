@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
+import { removeArrayItem } from 'ionic-angular/util/util';
 
 /*
   Generated class for the JournalProvider provider.
@@ -17,7 +18,7 @@ export class JournalProvider {
     console.log('Hello JournalProvider Provider');
   }
 
-  archiveJournal(journalIndex){
+archiveJournal(journalIndex){
     // variable to hold the todo to be archived
 let journalToBeArchived = this.journals[journalIndex];
 // remove the todo from the todo list
@@ -25,6 +26,19 @@ this.journals.splice(journalIndex, 1);
 //add the removed todo to the archived todos array
 this.archivedJournals.push(journalToBeArchived);
 }
+
+deleteJournal(journalIndex){
+  // variable to hold the todo to be archived
+let journalToBeArchived = this.journals[journalIndex];
+// remove the todo from the todo list
+this.journals.splice(journalIndex, 1);
+//add the removed todo to the archived todos array
+this.archivedJournals.splice(journalToBeArchived);
+}
+
+removeJournal(journal){
+  this.archivedJournals.splice(journal);
+  }
 
 getJournals(){
 return this.journals;

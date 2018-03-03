@@ -18,10 +18,15 @@ export class StoreJournalsPage {
   public archivedJournals = [];
 
   constructor(private journalProvider:JournalProvider, public navCtrl: NavController, public navParams: NavParams) {
+  
   }
 
   ionViewDidLoad() {
     this.archivedJournals = this.journalProvider.getArchivedJournals();
+  }
+
+  delJournal(journalIndex){
+    this.journalProvider.removeJournal(journalIndex);
   }
 
 }

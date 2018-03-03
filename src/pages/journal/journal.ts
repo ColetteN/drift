@@ -88,7 +88,7 @@ export class JournalPage {
           text: "Cancel"
         },
         {
-          text: "Edit Journal",
+          text: "Done",
           handler: (inputData)=> {
             let journalText;
             journalText = inputData.editJournalInput;
