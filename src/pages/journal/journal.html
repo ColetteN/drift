@@ -1,16 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Journal
+    Journal
     </ion-title>
 
-    <button ion-button (click)="openJournalAlert()">
-        <ion-icon name="book">  Add</ion-icon>    
-    </button>
+    <ion-buttons padding-left end>
+      <button ion-button (click)="openJournalAlert()">
+          <ion-icon name="create">  add</ion-icon>    
+      </button>
 
-    <ion-buttons end>
       <button (click)="toggleReorder()" ion-button *ngIf="!reorderIsEnabled">
-          <ion-icon name="reorder">  Reorder</ion-icon>  
+          <ion-icon name="reorder">  order</ion-icon>  
       </button>
 
       <button (click)="toggleReorder()" ion-button *ngIf="reorderIsEnabled">
