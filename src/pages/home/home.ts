@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Http } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';
-import 'rxjs/add/operator/map';
+// import { Http } from '@angular/http';
+// import { HttpClientModule } from '@angular/common/http';
+// import 'rxjs/add/operator/map';
 import { NavController } from 'ionic-angular';
 import { AudioImagesProvider } from '../../providers/audio-images/audio-images';
-import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-images-details';
+// import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-images-details';
 import { ImageViewerController } from 'ionic-img-viewer';
 
 @Component({
@@ -17,7 +17,7 @@ export class HomePage {
   // imageViewerCtrl: ImageViewerController;
 
   constructor( public imageViewerCtrl: ImageViewerController, private audioImagesProvider:AudioImagesProvider, 
-    private http:Http, public navCtrl: NavController) {
+    public navCtrl: NavController) {
 
       this.imageViewerCtrl = imageViewerCtrl;
   }
