@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
-import { removeArrayItem } from 'ionic-angular/util/util';
+// import { removeArrayItem } from 'ionic-angular/util/util';
 
 /*
   Generated class for the JournalProvider provider.
