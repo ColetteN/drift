@@ -37,10 +37,4 @@ export class HomePage {
     imageViewer.onDidDismiss(() => alert('Viewer dismissed'));
   }
 
-  // goToAudioImagesDetailsPage(audioImages){
-  //   this.navCtrl.push(AudioImagesDetailsPage,{
-  //     audioImagesDetails: audioImages
-  //   });
-  // }
-
 }
