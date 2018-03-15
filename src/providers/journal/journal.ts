@@ -37,7 +37,7 @@ this.archivedJournals.splice(journalToBeArchived);
 }
 
 removeJournal(journal){
-  this.archivedJournals.splice(journal);
+  this.archivedJournals.splice(journal,1);
   }
 
 getJournals(){

@@ -15,11 +15,11 @@
 
 <ion-content padding>
     <ion-list>
-      <ion-item-sliding (ionSwipe)="delJournal(journal)">
+      <ion-item-sliding (ionSwipe)="delJournal()">
         <!-- Angular forloop, list archived journals here -->
         <ion-item *ngFor="let journal of archivedJournals">{{journal}}</ion-item>       
           <ion-item-options>
-              <button color="danger" ion-button expandable (click)="delJournal(journal)">Delete
+              <button color="danger" ion-button (click)="delJournal()">Delete
                   <ion-icon name="trash"></ion-icon>
               </button>
           </ion-item-options> 

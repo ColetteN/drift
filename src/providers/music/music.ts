@@ -10,16 +10,15 @@ import "rxjs/add/operator/map";
   and Angular DI.
 */
 
-const API: string = "http://www.orangevalleycaa.org/api/music";
+// const API: string = "http://www.orangevalleycaa.org/api/music";
 @Injectable()
 export class MusicProvider {
 
   constructor(public http: Http) {
     console.log('Hello MusicProvider Provider');
   }
-
   getMusic(){
-    return this.http.get(API)
+    return this.http.get('./assets/music.json')
       .map(response => response.json());
   }
 
