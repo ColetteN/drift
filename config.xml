@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.ionic.drift" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>drift</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <description>A relaxation App</description>
+    <author email="colettenash.webdeveloper@gmail.com" href="http://colettenashwebdeveloper.com/">ColetteNash RachelRay</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -85,4 +85,5 @@
     <plugin name="cordova-plugin-media" spec="^5.0.2" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <engine name="android" spec="7.0.0" />
+    <plugin name="cordova-plugin-nativestorage" spec="^2.3.1" />
 </widget>

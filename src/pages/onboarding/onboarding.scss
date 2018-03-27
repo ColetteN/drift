@@ -29,6 +29,10 @@ page-onboarding {
        background:#192c47;
     }
     
+    .no-scroll .scroll-content{
+        overflow: hidden;
+   }
+    
     .swiper-pagination{
         bottom: 20% !important;
     }

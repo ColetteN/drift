@@ -83,4 +83,15 @@ export class AudioRecordPage {
     this.audio.setVolume(0.8);
   }
 
+  // delRecord(){
+  //   this.audio.delRecord();
+  //   let data = { 
+  //     filename: this.fileName 
+  //   };
+  //   this.audioList.splice(data, idx);
+  //   localStorage.setItem("audiolist", JSON.stringify(this.audioList));
+  //   this.recording = false;
+  //   this.delRecord();
+  // }
+
 }
