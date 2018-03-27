@@ -12,6 +12,7 @@ import { AudioRecordPage } from '../pages/audio-record/audio-record';
 import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AudioPlayerPage } from '../pages/audio-player/audio-player';
+import { OnboardingPage } from '../pages/onboarding/onboarding';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { NativeAudio } from '@ionic-native/native-audio';
@@ -39,7 +40,8 @@ import { MusicProvider } from '../providers/music/music';
     AudioRecordPage,
     AudioImagesDetailsPage,
     AudioPlayerPage,
-    TabsPage
+    TabsPage,
+    OnboardingPage
   ],
   imports: [
     HttpClientModule,
@@ -59,7 +61,8 @@ import { MusicProvider } from '../providers/music/music';
     HomePage,
     AudioRecordPage,
     AudioPlayerPage,
-    TabsPage
+    TabsPage,
+    OnboardingPage
   ],
   providers: [
     SocialSharing,

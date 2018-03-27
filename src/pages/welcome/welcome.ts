@@ -1,13 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TabsPage } from '../tabs/tabs';
-
-/**
- * Generated class for the WelcomePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { OnboardingPage } from '../onboarding/onboarding';
 
 @IonicPage()
 @Component({
@@ -24,7 +17,6 @@ export class WelcomePage {
   }
 
   enter(){
-    this.navCtrl.push(TabsPage);
+    this.navCtrl.push(OnboardingPage);
   }
-
 }
