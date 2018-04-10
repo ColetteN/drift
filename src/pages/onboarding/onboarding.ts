@@ -32,6 +32,6 @@ export class OnboardingPage {
 
   slideChanged(){
     if(this.slides.isEnd())
-    this.skipMsg = "Enjoy the app";
+    this.skipMsg = "Enter";
   }
 }

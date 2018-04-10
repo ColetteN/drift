@@ -12,7 +12,7 @@ export class AudioPage {
   public allMusic = [];
 
   constructor(
-    private socialSharing: SocialSharing,
+    // private socialSharing: SocialSharing,
     public navCtrl: NavController, 
     private loadingController: LoadingController,
     private actionSheetController: ActionSheetController,
@@ -38,37 +38,37 @@ export class AudioPage {
     });
   }  
 
-  shareSong(music){
-    let shareSongActionSheet = this.actionSheetController.create({
-      title: "Share with friends",
-      buttons: [
-        {
-          text: "Share on Facebook",
-          icon: "logo-facebook",
-          handler: ()=>{
-            this.socialSharing.shareViaFacebook(music.name, music.image, music.music_url);
-          }
-        },
-        {
-          text: "Share on Twitter",
-          icon: "logo-twitter",
-          handler: ()=>{
-            this.socialSharing.shareViaTwitter(music.name, music.image, music.music_url);
-          }
-        },
-        {
-          text: "Share",
-          icon: "logo-share",
-          handler: ()=>{
-            this.socialSharing.share(music.name, "", music.image, music.music_url);
-          }
-        },
-        {
-          text: "Cancel",
-          role: "destructive"
-        }
-      ]
-    });
-    shareSongActionSheet.present();
-  }
+//   shareSong(music){
+//     let shareSongActionSheet = this.actionSheetController.create({
+//       title: "Share with friends",
+//       buttons: [
+//         {
+//           text: "Share on Facebook",
+//           icon: "logo-facebook",
+//           handler: ()=>{
+//             this.socialSharing.shareViaFacebook(music.name, music.image, music.music_url);
+//           }
+//         },
+//         {
+//           text: "Share on Twitter",
+//           icon: "logo-twitter",
+//           handler: ()=>{
+//             this.socialSharing.shareViaTwitter(music.name, music.image, music.music_url);
+//           }
+//         },
+//         {
+//           text: "Share",
+//           icon: "logo-share",
+//           handler: ()=>{
+//             this.socialSharing.share(music.name, "", music.image, music.music_url);
+//           }
+//         },
+//         {
+//           text: "Cancel",
+//           role: "destructive"
+//         }
+//       ]
+//     });
+//     shareSongActionSheet.present();
+//   }
 }
