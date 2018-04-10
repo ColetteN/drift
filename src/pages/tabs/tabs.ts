@@ -10,7 +10,7 @@ import { AudioRecordPage } from '../audio-record/audio-record';
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
-
+// These are the tabs
   tab1Root = HomePage;
   tab2Root = AudioPage;
   tab3Root = JournalPage;
