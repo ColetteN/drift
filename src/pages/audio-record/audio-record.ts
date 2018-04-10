@@ -48,11 +48,11 @@ export class AudioRecordPage {
 
   startRecord() {
     if (this.platform.is('ios')) {
-      this.fileName = 'Journal Date:' + '' + new Date().getDate() + '' + new Date().getMonth() + '' + new Date().getFullYear() + '' + 'Time:' + new Date().getHours() + '' + new Date().getMinutes();
+      this.fileName = 'Journal Date:' + '-' + new Date().getDate() + '-' + new Date().getMonth()+1 + '-' + new Date().getFullYear() + ' ' + 'Time:' + new Date().getHours() + ':' + new Date().getMinutes();
       this.filePath = this.file.documentsDirectory.replace(/file:\/\//g, '') + this.fileName;
       this.audio = this.mediaPlugin.create(this.filePath);
     } else if (this.platform.is('android')) {
-      this.fileName = 'Journal Date:' + '' + new Date().getDate() + '' + new Date().getMonth() + '' + new Date().getFullYear() + '' + 'Time:' + new Date().getHours() + '' + new Date().getMinutes();
+      this.fileName = 'Journal Date:' + '-' + new Date().getDate() + '-' + new Date().getMonth()+1 + '-' + new Date().getFullYear() + ' ' + 'Time:' + new Date().getHours() + ':' + new Date().getMinutes();
       this.filePath = this.file.externalDataDirectory.replace(/file:\/\//g, '') + this.fileName;
       this.audio = this.mediaPlugin.create(this.filePath);
     }
