@@ -17,7 +17,7 @@ export class TabsPage {
   tab4Root = AudioRecordPage;
   // tab5Root = WelcomePage;
 
-  constructor() {
+  // constructor() {
 
   }
 }
