@@ -29,20 +29,20 @@
             <button ion-button clear item-end large (click)="playAudio(audio.filename, i)">
               <ion-icon name="play"></ion-icon>
             </button> 
-            <button color="danger" (click)="delRecord(audio.filename, i)">
+            <!-- <button color="danger" (click)="delRecord(audio.filename, i)">
               <ion-icon name="trash"></ion-icon>
-            </button>       
+            </button>        -->
       </ion-item>
     </ion-item-sliding> 
   </ion-list> 
 
 </ion-content>
 
-<ion-content padding>
+<!-- <ion-content padding>
   <ion-list>
-    <ion-item-sliding (ionSwipe)="delJournal()"> -->
+    <ion-item-sliding (ionSwipe)="delJournal()"> --> 
       <!-- Angular forloop, list archived journals here -->
-      <ion-item *ngFor="let journal of archivedJournals">{{journal}}</ion-item> !--        -->
+      <!-- <ion-item *ngFor="let journal of archivedJournals">{{journal}}</ion-item> 
         <ion-item-options>
             <button color="danger" ion-button (click)="delJournal()">Delete
                 <ion-icon name="trash"></ion-icon>
@@ -50,4 +50,4 @@
         </ion-item-options> 
     </ion-item-sliding>
   </ion-list>
-</ion-content>
+</ion-content> -->
