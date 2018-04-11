@@ -2,7 +2,7 @@
     {
         "id": "2",
         "music_url": "http://orangevalleycaa.org/api/media/music/AcousticIntro_45687.wav",
-        "name":	"Acoustic Intro",
+        "name":	"Acoustic Guitar",
         "description": "Short acoustic guitar intro with a dreamy, relaxed quality that inspires reflection.",
         "duration":	"0:57",
         "image": "http://orangevalleycaa.org/api/media/images/BalletInSmoke_054599628.png",
@@ -13,7 +13,7 @@
     {
         "id": "3",
         "music_url": "http://orangevalleycaa.org/api/media/music/OptimisticLife_41224.wav",
-        "name":	"Optimistic Life",
+        "name":	"Gentle Beats",
         "description": "Song with optimistic vibe, that's perfect background for music videos that need an uplifting and cool atmosphere.",
         "duration":	"0:30",
         "image": "http://orangevalleycaa.org/api/media/images/BlowingGlass_066874921.png",
@@ -57,7 +57,7 @@
     {
         "id": "7",
         "music_url": "http://orangevalleycaa.org/api/media/music/BeginningInTheFarm_41245.wav",
-        "name":	"Beginning In The Farm",
+        "name":	"Mountain Valley",
         "description": "Positive and inspiring. Dreams, ideas, and a sense of something new and full of beauty.",
         "duration":	"2:06",
         "image": "http://orangevalleycaa.org/api/media/images/GraphicArtist_052214820.png",
@@ -68,7 +68,7 @@
     {
         "id": "8",
         "music_url": "http://orangevalleycaa.org/api/media/music/BrightAcousticAmbient_35443.wav",
-        "name":	"Bright Acoustic Ambient",
+        "name":	"Acoustic Ambience",
         "description": "Acoustic guitar and ukulele mellow track with a 12-string acoustic guitar as the main instrument.",
         "duration":	"3:21",
         "image": "http://orangevalleycaa.org/api/media/images/PleinAirArtist_061873487.png",
@@ -79,7 +79,7 @@
     {
         "id": "9",
         "music_url": "http://orangevalleycaa.org/api/media/music/BrothersInArms_46815.wav",
-        "name":	"Brothers In Arms",
+        "name":	"Background",
         "description": "A themed narrative pece depicting wartime heroes, victorious and fallen. Good for poignant, emotive scenes of loss and tragedy.",
         "duration":	"1:15",
         "image": "http://orangevalleycaa.org/api/media/images/SculptorWelding_053783433.png",
@@ -90,7 +90,7 @@
     {
         "id": "10",
         "music_url": "http://orangevalleycaa.org/api/media/music/BusinessCorporateBackgrounds_41443.wav",
-        "name":	"Business Corporate Backgrounds",
+        "name":	"Moods",
         "description": "Positive, uplifting, and inspiring soft corporate ambient music that is perfect as background music for inspirational stories, advertisements, TV commercials, brand company and news, science and invention, architecture and trade, technology and education, and much more.",
         "duration":	"2:57",
         "image": "http://orangevalleycaa.org/api/media/images/SpinningPottery_061544433.png",
