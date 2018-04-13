@@ -28,4 +28,8 @@ export class StoreJournalsPage {
   delJournal(journalIndex){
     this.journalProvider.removeJournal(journalIndex);
   }
+
+  // storeJournal(journalIndex){
+  //   this.journalProvider.storeJournal(journalIndex);
+  // }
 }
