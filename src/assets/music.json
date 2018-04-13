@@ -1,101 +1,117 @@
 [
     {
+        "id": "1",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/above_the_clouds.mp3",
+        "name":	"Above the Clouds"
+    },
+    {
         "id": "2",
-        "music_url": "http://orangevalleycaa.org/api/media/music/AcousticIntro_45687.wav",
-        "name":	"Acoustic Guitar",
-        "description": "Short acoustic guitar intro with a dreamy, relaxed quality that inspires reflection.",
-        "duration":	"0:57",
-        "image": "http://orangevalleycaa.org/api/media/images/BalletInSmoke_054599628.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/BalletInSmoke_054599628.png",
-        "created_by": "Trevor Lackey",
-        "file_name_original": "Acoustic Intro_LYNDA_45687.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/ambient_dance.mp3",
+        "name":	"Ambient Dance"
     },
     {
         "id": "3",
-        "music_url": "http://orangevalleycaa.org/api/media/music/OptimisticLife_41224.wav",
-        "name":	"Gentle Beats",
-        "description": "Song with optimistic vibe, that's perfect background for music videos that need an uplifting and cool atmosphere.",
-        "duration":	"0:30",
-        "image": "http://orangevalleycaa.org/api/media/images/BlowingGlass_066874921.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/BlowingGlass_066874921.png",
-        "created_by": "PremiumAudio",
-        "file_name_original": "Optimistic Life_LYNDA_41224.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/ambient_relax.mp3",
+        "name":	"Ambient Relaxation"
     },
     {
         "id": "4",
-        "music_url": "http://orangevalleycaa.org/api/media/music/TraceyLarvenz_35879.wav",
-        "name":	"Light and Oxygen",
-        "description": "A bubbly, soothing track suited for corporate, marketing, and motivational videos.",
-        "duration":	"3:05",
-        "image": "http://orangevalleycaa.org/api/media/images/FireDancers_042981315.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/FireDancers_042981315.png",
-        "created_by": "Tracey Larvenz",
-        "file_name_original": "Tracey Larvenz track_LYNDA_35879.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/chill_zone.mp3",
+        "name":	"Chilled Zone"
     },
     {
         "id": "5",
-        "music_url": "http://orangevalleycaa.org/api/media/music/ExploreCaliforniaIntro_8773.wav",
-        "name":	"Exploring California",
-        "description": "A synth and percussion track as smooth as a drive along the California coast.",
-        "duration":	"0:20",
-        "image": "http://orangevalleycaa.org/api/media/images/GlassBlownDragon_056473995.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/GlassBlownDragon_056473995.png",
-        "created_by": "Bryce Poole",
-        "file_name_original": "Explore California Intro_LYNDA_8773.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/classical_guitar.mp3",
+        "name":	"Classical Guitar"
     },
     {
         "id": "6",
-        "music_url": "http://orangevalleycaa.org/api/media/music/Aspire_45442.wav",
-        "name":	"Aspire",
-        "description": "\t\rInspiring and beautiful track played by acoustic piano, electric piano, celesta and some light oboe and clarinet sounds in the chorus.",
-        "duration": "2:45",
-        "image": "http://orangevalleycaa.org/api/media/images/GraffitiArtist_065000861.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/GraffitiArtist_065000861.png",
-        "created_by": "AudioQuattro",
-        "file_name_original": "Aspire_LYNDA_45442.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/deep_ambience.mp3",
+        "name":	"Deep Ambience"
     },
     {
         "id": "7",
-        "music_url": "http://orangevalleycaa.org/api/media/music/BeginningInTheFarm_41245.wav",
-        "name":	"Mountain Valley",
-        "description": "Positive and inspiring. Dreams, ideas, and a sense of something new and full of beauty.",
-        "duration":	"2:06",
-        "image": "http://orangevalleycaa.org/api/media/images/GraphicArtist_052214820.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/GraphicArtist_052214820.png",
-        "created_by": "Julio Kladniew",
-        "file_name_original": "Beginning In The Farm_LYNDA_41245.mp3"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/discover_the_world.mp3",
+        "name":	"Discovery"
     },
     {
         "id": "8",
-        "music_url": "http://orangevalleycaa.org/api/media/music/BrightAcousticAmbient_35443.wav",
-        "name":	"Acoustic Ambience",
-        "description": "Acoustic guitar and ukulele mellow track with a 12-string acoustic guitar as the main instrument.",
-        "duration":	"3:21",
-        "image": "http://orangevalleycaa.org/api/media/images/PleinAirArtist_061873487.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/PleinAirArtist_061873487.png",
-        "created_by": "Eliosmusic",
-        "file_name_original": "Bright acoustic ambient_LYNDA_35443.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/floating.mp3",
+        "name":	"Floating"
     },
     {
         "id": "9",
-        "music_url": "http://orangevalleycaa.org/api/media/music/BrothersInArms_46815.wav",
-        "name":	"Background",
-        "description": "A themed narrative pece depicting wartime heroes, victorious and fallen. Good for poignant, emotive scenes of loss and tragedy.",
-        "duration":	"1:15",
-        "image": "http://orangevalleycaa.org/api/media/images/SculptorWelding_053783433.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/SculptorWelding_053783433.png",
-        "created_by": "John Leonard French",
-        "file_name_original": "Brothers In Arms_LYNDA_46815.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/hourglass_electronic.mp3",
+        "name":	"Hourglass Electronic"
     },
     {
         "id": "10",
-        "music_url": "http://orangevalleycaa.org/api/media/music/BusinessCorporateBackgrounds_41443.wav",
-        "name":	"Moods",
-        "description": "Positive, uplifting, and inspiring soft corporate ambient music that is perfect as background music for inspirational stories, advertisements, TV commercials, brand company and news, science and invention, architecture and trade, technology and education, and much more.",
-        "duration":	"2:57",
-        "image": "http://orangevalleycaa.org/api/media/images/SpinningPottery_061544433.png",
-        "thumb": "http://orangevalleycaa.org/api/media/images/thumbs/SpinningPottery_061544433.png",
-        "created_by": "AZOVMUSIC",
-        "file_name_original": "Business Corporate Backgrounds_LYNDA_41443.wav"
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/meditation.mp3",
+        "name":	"Meditation"
+    },
+    {
+        "id": "11",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/meditation_for_dreaming.mp3",
+        "name":	"Meditation for Dreaming"
+    },
+    {
+        "id": "12",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/moonstone.mp3",
+        "name":	"Moonstone"
+    },
+    {
+        "id": "13",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/night_forest.mp3",
+        "name":	"Night Forest"
+    },
+    {
+        "id": "14",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/piano_melody.mp3",
+        "name":	"Piano Melody"
+    },
+    {
+        "id": "15",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/relaxing_ambience.mp3",
+        "name":	"Relaxing Ambience"
+    },
+    {
+        "id": "16",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/relaxing_piano.mp3",
+        "name":	"Relaxing Piano"
+    },
+    {
+        "id": "17",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/soft_piano.mp3",
+        "name":	"Soft Piano"
+    },
+    {
+        "id": "18",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/sonata_pathetique_2nd_movement.mp3",
+        "name":	"Sonata Pathetique 2nd Movement"
+    },
+    {
+        "id": "19",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/soul_relaxing.mp3",
+        "name":	"Soul Relaxation"
+    },
+    {
+        "id": "20",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/swan_lake.mp3",
+        "name":	"Swan Lake"
+    },
+    {
+        "id": "21",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/waltz_of_the_flowers.mp3",
+        "name":	"Waltz of Flowers"
+    },
+    {
+        "id": "22",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/water_ambience.mp3",
+        "name":	"Water Ambience"
+    },
+    {
+        "id": "23",
+        "music_url": "http://www.colettenashwebdeveloper.com/DriftMusic/zen_stones.mp3",
+        "name":	"Zen Stones"
     }
 ]

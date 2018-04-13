@@ -17,7 +17,7 @@ import { TabsPage } from '../tabs/tabs';
 })
 export class OnboardingPage {
   @ViewChild(Slides) slides:Slides;
-  skipMsg: String = "Skip";
+  skipMsg: String = "SKIP ";
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -32,6 +32,6 @@ export class OnboardingPage {
 
   slideChanged(){
     if(this.slides.isEnd())
-    this.skipMsg = "Enter";
+    this.skipMsg = "ENTER";
   }
 }
