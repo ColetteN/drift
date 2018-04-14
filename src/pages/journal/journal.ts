@@ -33,14 +33,6 @@ export class JournalPage {
     reorderArray(this.journals, $event);
   }
 
-  // presentAlert() {
-  //   let alert = Alert.create({
-  //     title: 'This is a custom alert',
-  //     buttons: ['OK']
-  //   });
-  //   this.nav.present(alert);
-  // }
-
   openJournalAlert(){
     let addJournalAlert = this.alertController.create({
       title: "Add A Journal",
