@@ -17,8 +17,7 @@
   <p>Swipe to permanently save your journal or swipe to delete...</p>
 
     <ion-list>
-
-      <!-- <ion-item-sliding (ionSwipe)="delJournal(journalIndex)"> -->
+      
         <!-- Angular forloop, list archived journals here -->
         <ion-item-sliding *ngFor="let journal of archivedJournals; let journalIndex = index">
 
@@ -30,11 +29,11 @@
               </button>
           </ion-item-options> 
 
-          <ion-item-options side="left">
+          <!-- <ion-item-options side="left">
             <button color="secondary" ion-button (click)="saveJournal()">Save
                 <ion-icon name="archive"></ion-icon>
             </button>
-        </ion-item-options> 
+        </ion-item-options>  -->
 
       </ion-item-sliding>
 
