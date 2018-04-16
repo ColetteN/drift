@@ -10,7 +10,6 @@ import { ImageViewerController } from 'ionic-img-viewer';
 export class HomePage {
   //create array for the images
   public allImages = [];
-  // imageViewerCtrl: ImageViewerController;
 
   constructor( public imageViewerCtrl: ImageViewerController, private imageGalleryProvider:ImageGalleryProvider, 
     public navCtrl: NavController) {
