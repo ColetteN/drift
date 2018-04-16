@@ -18,21 +18,23 @@
 
     <ion-list>
 
-      <ion-item-sliding (ionSwipe)="delJournal()">
+      <!-- <ion-item-sliding (ionSwipe)="delJournal(journalIndex)"> -->
         <!-- Angular forloop, list archived journals here -->
-        <ion-item *ngFor="let journal of archivedJournals">{{journal}}</ion-item>
+        <ion-item-sliding *ngFor="let journal of archivedJournals; let journalIndex = index">
 
-        <!-- <ion-item-options side="left">
-            <button color="secondary" ion-button (click)="saveJournal()">Save
-                <ion-icon name="archive"></ion-icon>
-            </button>
-        </ion-item-options>  -->
+          <ion-item>{{journal}}</ion-item>
 
           <ion-item-options side="right">
-              <button color="danger" ion-button (click)="delJournal()">Delete
+              <button ion-button expandable color="danger" (click)="delJournal(journalIndex)">Delete
                   <ion-icon name="trash"></ion-icon>
               </button>
           </ion-item-options> 
+
+          <ion-item-options side="left">
+            <button color="secondary" ion-button (click)="saveJournal()">Save
+                <ion-icon name="archive"></ion-icon>
+            </button>
+        </ion-item-options> 
 
       </ion-item-sliding>
 

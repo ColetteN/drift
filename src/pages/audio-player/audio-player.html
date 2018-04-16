@@ -15,26 +15,38 @@
 
 <ion-content padding>
 
-  <ion-row> 
-    <ion-col>
-      <button ion-button block icon-only (click)="stopMusic()">
-        <ion-icon name="square"></ion-icon>
-      </button>
-    </ion-col>
-  </ion-row>
+  <!-- creating gaps between the buttons -->
+  <ion-row><ion-col></ion-col></ion-row>
+  <ion-row><ion-col></ion-col></ion-row>
 
   <ion-row>
     <ion-col>
-      <button ion-button block icon-only (click)="playMusic()">
+      <button ion-button round block icon-only (click)="playMusic()">
         <ion-icon name="play"></ion-icon>
       </button>
     </ion-col>
   </ion-row>
-  
+
+  <!-- creating gaps between the buttons -->
+  <ion-row><ion-col></ion-col></ion-row>
+  <ion-row><ion-col></ion-col></ion-row>
+
   <ion-row>
     <ion-col>
-      <button ion-button block icon-only (click)="pauseMusic()">
+      <button ion-button round block icon-only (click)="pauseMusic()">
         <ion-icon name="pause"></ion-icon>
+      </button>
+    </ion-col>
+  </ion-row>
+
+  <!-- creating gaps between the buttons -->
+  <ion-row><ion-col></ion-col></ion-row>
+  <ion-row><ion-col></ion-col></ion-row>
+
+  <ion-row> 
+    <ion-col>
+      <button ion-button round block icon-only (click)="stopMusic()">
+        <ion-icon name="square"></ion-icon>
       </button>
     </ion-col>
   </ion-row>

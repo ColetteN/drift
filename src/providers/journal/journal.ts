@@ -36,10 +36,6 @@ this.journals.splice(journalIndex, 1);
 this.archivedJournals.splice(journalToBeArchived);
 }
 
-removeJournal(journal){
-  this.archivedJournals.splice(journal,1);
-  }
-
 getJournals(){
 return this.journals;
 }
@@ -56,5 +52,9 @@ this.journals.push(journal);
 editJournal(journal,journalIndex){
 this.journals[journalIndex] = journal;
 }
+
+removeJournal(journal){
+  this.archivedJournals.splice(journal,1);
+  }
 
 }
