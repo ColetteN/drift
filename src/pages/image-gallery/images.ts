@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-audio-images-details',
-  templateUrl: 'audio-images-details.html',
+  selector: 'page-images',
+  templateUrl: 'images.html',
 })
-export class AudioImagesDetailsPage {
+export class ImageGalleryPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AudioImagesDetailsPage');
+    console.log('ionViewDidLoad ImageGalleryPage');
   }
 
 }

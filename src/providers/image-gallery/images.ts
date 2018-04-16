@@ -10,10 +10,10 @@ import 'rxjs/add/operator/map';
   and Angular DI.
 */
 @Injectable()
-export class AudioImagesProvider {
+export class ImageGalleryProvider {
 
   constructor(public http: Http) {
-    console.log('Hello AudioImagesProvider Provider');
+    console.log('Hello ImageGalleryProvider Provider');
   }
   
   getImages(){
