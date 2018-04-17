@@ -22,28 +22,32 @@
 </ion-header>
 
 <ion-content padding>
-
+<p>The buttons above allow you to add and reorder your Journal,
+  swipe on your entry to edit or store....</p>
   <ion-list [reorder]="reorderIsEnabled" (ionItemReorder)="itemReordered($event)">
     <ion-item-sliding *ngFor="let journal of journals; let journalIndex = index">
+
       <ion-item-options side="left">
-          <!-- <button color="danger" ion-button expandable (click)="delJournal(journal)">Delete</button> -->
           <button ion-button expandable (click)="editJournal(journalIndex)">Edit
             <ion-icon name="create"></ion-icon>
           </button>
         </ion-item-options>
+
           <ion-item>{{journal}}</ion-item>
 
+          <!-- save the journals here -->
       <ion-item-options side="right">
-        <button ion-button expandable color="secondary" ion-button (click)="archiveJournal(journalIndex)">Store
+        <button ion-button expandable color="secondary" (click)="archiveJournal(journalIndex)">Store
           <ion-icon name="archive"></ion-icon>
         </button>
       </ion-item-options>
+      
   </ion-item-sliding>
 </ion-list>
 
 <ion-fab right bottom>
-  <button ion-fab (click)="goToStoreJournalsPage()">
-    <ion-icon name="md-list-box"></ion-icon>
+  <button ion-fab color="secondary" (click)="goToStoreJournalsPage()">
+    <ion-icon name="md-list-box" ></ion-icon>
   </button>
 </ion-fab>
 

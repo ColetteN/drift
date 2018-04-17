@@ -3,150 +3,150 @@
     "id": "1",
     "name": "Water",
     "description": "Seaside",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sea.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sea.jpg"
   },
   {
     "id": "2",
     "name": "Nature",
     "description": "Robin",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/robin.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/robin.jpg"
   },
   {
     "id": "3",
     "name": "City",
     "description": "Cathedral",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/cathedral.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/cathedral.jpg"
   },
   {
     "id": "4",
     "name": "Nature",
     "description": "Bench",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bench.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bench.jpg"
   },
   {
     "id": "5",
     "name": "Water",
     "description": "Seaside",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/beach.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/beach.jpg"
   },
   {
     "id": "6",
     "name": "City",
     "description": "Church",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/church.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/church.jpg"
   },
   {
     "id": "7",
     "name": "Nature",
     "description": "Chestnuts",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/chestnuts.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/chestnuts.jpg"
   },
   {
     "id": "8",
     "name": "Nature",
     "description": "Tree",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/tree.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/tree.jpg"
   },
   {
     "id": "9",
     "name": "Water",
     "description": "Seaside",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/lighthouse.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/lighthouse.jpg"
   },
   {
     "id": "10",
     "name": "Water",
     "description": "Seaside",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/wave.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/wave.jpg"
   },
   {
     "id": "11",
     "name": "Nature",
     "description": "Stream",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/stream.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/stream.jpg"
   },
   {
     "id": "12",
     "name": "City",
     "description": "Bakery",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bakery.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bakery.jpg"
   },
   {
     "id": "13",
     "name": "City",
     "description": "River",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bend.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bend.jpg"
   },
   {
     "id": "14",
     "name": "City",
     "description": "Bridge",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bridge.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/bridge.jpg"
   },
   {
     "id": "15",
     "name": "City",
     "description": "Salzburg",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/city.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/city.jpg"
   },
   {
     "id": "16",
     "name": "City",
     "description": "Salzburg",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/river.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/river.jpg"
   },
   {
     "id": "17",
     "name": "Nature",
     "description": "Mountains",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/mountains.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/mountains.jpg"
   },
   {
     "id": "18",
     "name": "Nature",
     "description": "Fields",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/fields.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/fields.jpg"
   },
   {
     "id": "19",
     "name": "Nature",
     "description": "Sun",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sun.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sun.jpg"
   },
   {
     "id": "20",
     "name": "Nature",
     "description": "Sunset",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sunset.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/sunset.jpg"
   },
   {
     "id": "21",
     "name": "City",
     "description": "Yard",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/Yard.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/Yard.jpg"
   },
   {
     "id": "22",
     "name": "City",
     "description": "Pump",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/pump.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/pump.jpg"
   },
   {
     "id": "23",
     "name": "City",
     "description": "River",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/stretch.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/stretch.jpg"
   },
   {
     "id": "24",
     "name": "Water",
     "description": "Seaside",
-    "image": "http://www.colettenashwebdeveloper.com/DriftApp/rocks.png"
+    "image": "http://www.colettenashwebdeveloper.com/DriftApp/rocks.jpg"
   },
   {
   "id": "25",
   "name": "City",
   "description": "Abbey",
-  "image": "http://www.colettenashwebdeveloper.com/DriftApp/abbey.png"
+  "image": "http://www.colettenashwebdeveloper.com/DriftApp/abbey.jpg"
   }
 ]

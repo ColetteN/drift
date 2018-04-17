@@ -9,7 +9,6 @@
   <ion-slides pager (ionSlideDidChange)="slideChanged()">
     <ion-slide>
       <div class="diag">
-        <!-- <img src="assets/imgs/logo.png" class="logo"/> -->
         <ion-icon name="infinite" md="md-infinite" color="primary" id="icon"></ion-icon>
       </div>
       <div>
@@ -21,27 +20,28 @@
 
     <ion-slide>
       <div class="diag">
-        <!-- <img src="assets/imgs/logo.png" class="logo"/> -->
         <ion-icon name="images" md="md-images" color="primary"></ion-icon>
       </div>
       <div>
-        <h2>Gallery & Music</h2>
+        <h2>Image Gallery & Music</h2>
         <p>Browse through beautiful pictures and listen to soothing and relaxing music</p>
       </div>
     </ion-slide>
 
     <ion-slide>
       <div class="diag">
-        <!-- <img src="assets/imgs/logo.png" class="logo"/> -->
         <ion-icon name="recording" md="md-recording" color="primary"></ion-icon>
       </div>
       <div>
-        <h2>Journal & Record</h2>
-        <p>Keep a journal and create voice recordings to clear your mind</p>
+        <h2>Journal Diary & Voice Record</h2>
+        <p>Keep a journal diary and create voice recordings to clear your mind</p>
       </div>
     </ion-slide>
- 
+  
   </ion-slides>
 
-  <button ion-button round outline (click)="skip()" id="skip">{{ skipMsg }}</button>
+  <div>
+    <button ion-button round outline (click)="skip()" id="skip">{{ skipMsg }}</button>    
+  </div>
+  
 </ion-content>

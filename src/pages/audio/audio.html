@@ -12,9 +12,14 @@
     <ion-card-content>
       <ion-card-title>{{music.name}}</ion-card-title>
       <ion-item>
-        <button ion-button item-right (click)="goToAudioPlayer(music)">Listen</button>
+        <button ion-button block round (click)="goToAudioPlayer(music)">Listen</button>
       </ion-item>
     </ion-card-content>
   </ion-card>
-
 </ion-content>
+
+<!-- <ion-footer>
+  <ion-toolbar>
+    <ion-title>{{music.name}}</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

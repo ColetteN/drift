@@ -9,7 +9,7 @@ import { StoreJournalsPage } from '../pages/store-journals/store-journals';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AudioRecordPage } from '../pages/audio-record/audio-record';
-import { AudioImagesDetailsPage } from '../pages/audio-images-details/audio-images-details';
+import { ImageGalleryPage } from '../pages/image-gallery/images';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AudioPlayerPage } from '../pages/audio-player/audio-player';
 import { OnboardingPage } from '../pages/onboarding/onboarding';
@@ -19,13 +19,14 @@ import { NativeAudio } from '@ionic-native/native-audio';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SocialSharing } from "@ionic-native/social-sharing";
 import { NativeStorage } from '@ionic-native/native-storage';
+import { IonicStorageModule } from '@ionic/storage';
 
 import { MediaPlugin } from "@ionic-native/media";
 import { File } from '@ionic-native/file';
 
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
-import { AudioImagesProvider } from '../providers/audio-images/audio-images';
+import { ImageGalleryProvider } from '../providers/image-gallery/images';
 import { JournalProvider } from '../providers/journal/journal';
 import { IonicImageViewerModule } from 'ionic-img-viewer';
 import { MusicProvider } from '../providers/music/music';
@@ -39,7 +40,7 @@ import { MusicProvider } from '../providers/music/music';
     HomePage,
     WelcomePage,
     AudioRecordPage,
-    AudioImagesDetailsPage,
+    ImageGalleryPage,
     AudioPlayerPage,
     TabsPage,
     OnboardingPage
@@ -58,7 +59,7 @@ import { MusicProvider } from '../providers/music/music';
     JournalPage,
     WelcomePage,
     StoreJournalsPage,
-    AudioImagesDetailsPage,
+    ImageGalleryPage,
     HomePage,
     AudioRecordPage,
     AudioPlayerPage,
@@ -73,7 +74,7 @@ import { MusicProvider } from '../providers/music/music';
     HttpClientModule,
     HttpModule,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AudioImagesProvider,
+    ImageGalleryProvider,
     JournalProvider,
     MusicProvider,
     MediaPlugin,

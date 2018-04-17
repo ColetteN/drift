@@ -16,9 +16,10 @@ import { JournalProvider } from '../../providers/journal/journal';
 })
 export class StoreJournalsPage {
   public archivedJournals = [];
+  public journal = [];
 
   constructor(private journalProvider:JournalProvider, public navCtrl: NavController, public navParams: NavParams) {
-  
+
   }
 
   ionViewDidLoad() {

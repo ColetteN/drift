@@ -19,7 +19,8 @@ export class AudioPlayerPage {
   private songMedia: MediaObject = null;
   private isMusicPaused = false;
 
-  constructor(private mediaPlugin: MediaPlugin, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private mediaPlugin: MediaPlugin, public navCtrl: NavController, 
+    public navParams: NavParams) {
     this.music = this.navParams.get("music");
     console.log(this.navParams.get("music"));
   }

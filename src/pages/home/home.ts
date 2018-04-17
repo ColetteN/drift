@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
-// import { Http } from '@angular/http';
-// import { HttpClientModule } from '@angular/common/http';
-// import 'rxjs/add/operator/map';
 import { NavController } from 'ionic-angular';
-import { AudioImagesProvider } from '../../providers/audio-images/audio-images';
-// import { AudioImagesDetailsPage } from '../../pages/audio-images-details/audio-images-details';
+import { ImageGalleryProvider } from '../../providers/image-gallery/images';
 import { ImageViewerController } from 'ionic-img-viewer';
 
 @Component({
@@ -14,16 +10,15 @@ import { ImageViewerController } from 'ionic-img-viewer';
 export class HomePage {
   //create array for the images
   public allImages = [];
-  // imageViewerCtrl: ImageViewerController;
 
-  constructor( public imageViewerCtrl: ImageViewerController, private audioImagesProvider:AudioImagesProvider, 
+  constructor( public imageViewerCtrl: ImageViewerController, private imageGalleryProvider:ImageGalleryProvider, 
     public navCtrl: NavController) {
 
       this.imageViewerCtrl = imageViewerCtrl;
   }
 
   ionViewDidLoad(){
-    this.audioImagesProvider.getImages()
+    this.imageGalleryProvider.getImages()
       .subscribe((response) => {
         this.allImages = response;
       });
