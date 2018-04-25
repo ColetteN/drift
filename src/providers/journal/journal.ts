@@ -53,6 +53,10 @@ editJournal(journal,journalIndex){
 this.journals[journalIndex] = journal;
 }
 
+// saveJournal(journal,journalIndex){
+//   this.journals[journalIndex] = journal;
+//   }
+
 removeJournal(journal){
   this.archivedJournals.splice(journal,1);
   }

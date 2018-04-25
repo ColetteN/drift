@@ -21,6 +21,17 @@ export class StoreJournalsPage {
   constructor(private journalProvider:JournalProvider, public navCtrl: NavController, public navParams: NavParams) {
 
   }
+  
+  // ionViewWillEnter(){
+  //   this.getJournalEntries();
+  // }
+  
+  // getJournalEntries(){
+  //   if(localStorage.getItem("archivedJournals")){
+  //     this.journal = JSON.parse(localStorage.getItem("archivedJournals"));
+  //     console.log(this.journal);
+  //   }
+  // }
 
   ionViewDidLoad() {
     this.archivedJournals = this.journalProvider.getArchivedJournals();
@@ -29,4 +40,13 @@ export class StoreJournalsPage {
   delJournal(journalIndex){
     this.journalProvider.removeJournal(journalIndex);
   }
+
+  // saveJournal(journalIndex){
+  //   this.journalProvider.saveJournal(journalIndex);
+  //   this.archivedJournals.push(data);
+  //   localStorage.setItem("archivedJournals", JSON.stringify(this.archivedJournals));
+  //   this.getJournalEntries();
+  // }
 }
+
+
